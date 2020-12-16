@@ -1,6 +1,6 @@
 ## Halo ads
 
-Halo ads is a eb application consuming REST APIs with Axios from Laravel (database SQLite).
+Halo ads is a web application consuming REST APIs with Axios from Laravel (database SQLite).
 
 ## Description
 
@@ -12,7 +12,7 @@ They can search specific keywords to find specific ads.
 
 ![homepage](../master/ss/search.png)
 
-Users can add their own ads but only if they have an account and are logged in.
+Users can add their own ads but are limited by specific requirements.
 
 ![homepage](../master/ss/add_new.png)
 
@@ -20,7 +20,7 @@ Users can add their own ads but only if they have an account and are logged in.
 
 - Laravel (MVC Framework), SQLite
 
-- REST API with Axios
+- REST API with [Axios](https://github.com/axios/axios)
 
 ## Development front-end:
 
@@ -28,6 +28,6 @@ Users can add their own ads but only if they have an account and are logged in.
 
 - React.js (Hooks)
 
-- Tailwind (CSS Framework)
+- [Tailwind](https://tailwindcss.com/) (CSS Framework)
 
-- Moment.js for displaying human friendly time (ex: 1 hour ago)
+- [Moment.js](https://momentjs.com/) for displaying human friendly time (ex: 1 hour ago)
